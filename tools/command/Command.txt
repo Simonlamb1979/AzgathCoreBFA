@@ -1,0 +1,14 @@
+Teleport :
+
+.go 40,5109	59,625 0,00271346	2195
+
+.t HearthstoneTavern
+
+   X		  Y		    Z		   O        MAP       NAME
+40,5109	59,625	0,00271346	3,59978	2195	HearthstoneTavern
+
+Phase Vision N'Zoth :
+
+.mod phase 0 2212     //  Orgrimmar
+
+.mod phase 0 2213    //   Stormwind
