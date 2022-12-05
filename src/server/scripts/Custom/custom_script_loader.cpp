@@ -29,6 +29,7 @@ void AddSC_azgath_achievement_second_mount();
 void AddSC_azgath_achievement_third_mount();
 void AddSC_azgath_achievement_battlepet();
 void AddSC_azgath_guid_flying();
+void AddSC_npc_instance_reset();
 
 // ADM declaration begin
 // ADM declaration end
@@ -50,6 +51,7 @@ void AddCustomScripts()
 	AddSC_azgath_achievement_third_mount();
 	AddSC_azgath_achievement_battlepet();
 	AddSC_azgath_guid_flying();
+	AddSC_npc_instance_reset();
 
     // ADM call begin
     // ADM call end
