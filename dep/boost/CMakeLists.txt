@@ -30,7 +30,7 @@ if(WIN32)
   set(Boost_USE_STATIC_RUNTIME     OFF)
 endif()
 
-if (CMAKE_VERSION VERSION_LESS "3.19.1")
+if (CMAKE_VERSION VERSION_LESS "3.25.1")
   # boost's own cmake file adds extra compile definitions that cotire fails to pick up
   set(Boost_NO_BOOST_CMAKE ON)
 endif()
@@ -39,7 +39,7 @@ include (CheckCXXSourceCompiles)
 
 if (WIN32)
   # On windows the requirements are higher according to the wiki.
-  set(BOOST_REQUIRED_VERSION 1.72)
+  set(BOOST_REQUIRED_VERSION 1.73)
 else()
   set(BOOST_REQUIRED_VERSION 1.71)
 endif()
